@@ -15,7 +15,7 @@ depends: [
   "core"
   "ppx_jane"
   "dune"            {>= "3.17.0"}
-  "js_of_ocaml-ppx" {= "6.0.1+jst"}
+  "js_of_ocaml-ppx" {= "6.0.1+ox"}
 ]
 available: arch != "arm32" & arch != "x86_32"
 synopsis: "An API like the browser's setTimeout, but driven by an overridable async time source."
