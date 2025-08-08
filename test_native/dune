@@ -13,5 +13,5 @@
     "%{bin:patdiff-for-review} %{bin:patdiff} %{deps} > %{targets} || true")))
 
 (alias
- (name DEFAULT)
+ (name default)
  (deps js_to_native.diff))
